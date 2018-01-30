@@ -9,7 +9,7 @@ def func_random_no_generator(a, user_choice):
             if a == var:
                 print(1234/(a-var))
             else:
-                print("Okay. You are saved")
+                print("Okay. You are saved! ")
         except ZeroDivisionError:
             print("Oops. Your chosen value matched bugger!")
 
