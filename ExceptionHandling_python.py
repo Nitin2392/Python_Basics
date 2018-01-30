@@ -11,7 +11,7 @@ def func_random_no_generator(a, user_choice):
             else:
                 print("Okay. You are saved! ")
         except ZeroDivisionError:
-            print("Oops. Your chosen value matched bugger!")
+            print("Oops. Your chosen value matched bugger!!")
 
         finally:
             user_choice = input("Play again ? Y/N \n ")

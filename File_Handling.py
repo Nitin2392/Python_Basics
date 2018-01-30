@@ -13,7 +13,7 @@ file.close() # Always remember to close the file after we use it
 file = open("Trial.txt", "r")
 print(file.read())
 # There are different options to read a file
-print(file.read(20))  # Reads 10 bytes of data from the file
+print(file.read(10))  # Reads 10 bytes of data from the file
 print(file.readline())  # This command reads one entire line from the file
 file.close()
 

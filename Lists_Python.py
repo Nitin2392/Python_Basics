@@ -21,7 +21,7 @@ list_3 = list_1 + list_2; print(list_3)
 
 # Likewise, we can also multiply a number to a list
 
-list_4 = ["Nitin", "Varun"]
+list_4 = ["Nitin", "Adarsh"]
 print(list_4 * 5)
 
 # To search a list, we can use the "in" operator
